@@ -1,0 +1,66 @@
+html  {
+  background-color: black;
+}
+body {
+  font-family: Helvetica;
+  text-align: center;
+  background-color: white;
+  width: 1200px;
+  margin: auto; /*Centralises Webpage in browser*/
+  }
+.background {
+  background: url(../images/flatiron.png);
+  background-repeat: no-repeat;
+  color: white;
+}
+h1  {
+  font-size: 70px;
+  font-weight: bold;
+}
+h2  {
+  font-size: 32px;
+  font-weight: bold;
+}
+h3  {
+  font-size: 23px;
+  font-weight: bold;
+}
+p {
+  font-size: 14px;
+  margin: 0px;
+}
+li a {
+  font-size: 18px;
+  color: white;
+}
+img {
+  align-items: center;
+}
+.mid-bar  {
+  font-size: 23px;
+  font-weight: bold;
+  color: white;
+  background: url(../images/flatiron.png);
+  background-repeat: no-repeat;
+}
+#footer  {
+  background-color: dimgray;
+  height: 14px;
+}
+.copywrite {
+  font-size: 11px;
+  color: white;
+  display: inline-block; /* Reduces the width of element to allow in-line arrangement*/
+  margin-bottom: 10px;
+  float: left;
+}
+.footer-nav {
+  font-size: 11px;
+  float: left;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+.footer-nav a {
+  color: white;
+}
